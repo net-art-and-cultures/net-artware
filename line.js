@@ -1,6 +1,6 @@
 /* global mouseIsPressed, random, colorMode, fill, stroke, sin, ellipse,
  HSB, frameCount, mouseX, mouseY */
-window.brushes.sqaure = {
+window.brushes.line = {
   name: 'line',
   draw: function () {
 
