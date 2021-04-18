@@ -1,4 +1,5 @@
 /* global createCanvas, resizeCanvas */
+
 function preload () {
   window.setupMenuLogic()
 }
