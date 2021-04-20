@@ -1,15 +1,10 @@
-/* global preload, mouseIsPressed, image, createImage, loadImage, mouseX, mouseY */
-let shark;
-
-function preload(){
-  shark = loadImage('images/pinkshark.png')
-}
+/* global mouseIsPressed, image, mouseX, mouseY, shark */
 
 window.brushes.sharkStamp = {
   name: 'shark stamp',
   draw: function () {
     if (mouseIsPressed){
-    createImage('shark', mouseX, mouseY, 50, 50)
+    image(shark, mouseX, mouseY, 100, 100)
     }
   }
 }
