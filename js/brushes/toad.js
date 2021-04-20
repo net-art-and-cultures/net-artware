@@ -1,16 +1,9 @@
-/* global preload, mouseIsPressed, image, createImage, loadImage, mouseX, mouseY */
-let toad;
-
-function preload() {
-  toad = loadImage('images/toad.png');
-}
-
+/* global mouseIsPressed, mouseX, mouseY */
 window.brushes.toad = {
   name: 'toad',
   draw: function () {
     if (mouseIsPressed) {
-      createImage('toad', mouseX, mouseY, 50, 50);
-
+      image('toad', mouseX, mouseY, 50, 50);
     }
   }
 }

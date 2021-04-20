@@ -1,6 +1,10 @@
-/* global createCanvas, resizeCanvas */
+/* global createCanvas, resizeCanvas, preload, mouseIsPressed, image, createImage, loadImage, mouseX, mouseY */
+let toad;
+
 function preload () {
   window.setupMenuLogic()
+  toad = loadImage('imgs/toad.png');
+  }
 }
 
 function setup () {
