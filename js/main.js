@@ -3,8 +3,8 @@ let toad;
 
 function preload () {
   window.setupMenuLogic()
-  toad = loadImage('imgs/toad.png');
-  }
+  toad = loadImage('js/imgs/toad.png');
+  // }
 }
 
 function setup () {

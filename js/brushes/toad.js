@@ -1,4 +1,4 @@
-/* global mouseIsPressed, mouseX, mouseY */
+/* global mouseIsPressed, image, mouseX, mouseY */
 window.brushes.toad = {
   name: 'toad',
   draw: function () {
