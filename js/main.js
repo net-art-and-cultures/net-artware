@@ -1,7 +1,11 @@
-/* global createCanvas, resizeCanvas */
+/* global createCanvas, resizeCanvas, loadImage */
+let shark
+let toad
 
 function preload () {
   window.setupMenuLogic()
+  shark = loadImage('../images/pinkshark.png')
+  toad = loadImage('../images/toad.png')
 }
 
 function setup () {
@@ -17,5 +21,5 @@ function draw () {
 }
 
 function windowResized () {
-  resizeCanvas(window.innerWidth, window.innerHeight);
+  resizeCanvas(window.innerWidth, window.innerHeight)
 }
