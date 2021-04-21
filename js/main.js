@@ -5,8 +5,8 @@ let toad;
 
 function preload () {
   window.setupMenuLogic()
-  shark = loadImage('/images/pinkshark.png')
-  toad = loadImage('js/imgs/toad.png');
+  shark = loadImage('../images/pinkshark.png')
+  toad = loadImage('imgs/toad.png');
 }
 
 function setup () {
