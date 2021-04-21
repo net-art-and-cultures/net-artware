@@ -1,4 +1,4 @@
-/* global createCanvas, resizeCanvas, preload, mouseIsPressed, image, createImage, loadImage, mouseX, mouseY */
+/* global createCanvas, resizeCanvas, preload, mouseIsPressed, let, createImage, loadImage, mouseX, mouseY */
 let toad;
 
 function preload () {
