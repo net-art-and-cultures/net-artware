@@ -1,6 +1,9 @@
 /* global createCanvas, resizeCanvas */
+let shark;
+
 function preload () {
   window.setupMenuLogic()
+  shark = loadImage('/images/pinkshark.png')
 }
 
 function setup () {
