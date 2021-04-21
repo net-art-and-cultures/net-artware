@@ -15,7 +15,7 @@ window.brushes.waterWave = {
       vertex(0,height)
       xoff = start
       for(var x = 0;x<width; x++){
-        let y = noise(xoff)*(height-100);
+        let y = noise(xoff)*(height-100)
         vertex(x+mouseX,y)
         xoff+=inc
       }
